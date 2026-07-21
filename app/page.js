@@ -113,7 +113,7 @@ export default function Home() {
 
               <div className="product-main">
                 <img
-                  src="/produit-maison-novia.png"
+                  src="./produit-maison-novia.png"
                   alt="Prototype de la boîte de rangement Maison Novia"
                   className="product-image"
                 />
