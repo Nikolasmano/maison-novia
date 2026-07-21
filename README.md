@@ -1,39 +1,24 @@
-# Maison Novia — Site vitrine V3
+# Maison Novia — GitHub Pages V7
 
 Site vitrine premium pour Maison Novia / KAILIB.
 
-## Positionnement
+## Hébergement
 
-- Marque : Maison Novia
-- Slogan : Rangement premium, quotidien facilité
-- Domaine prévu : maisonnovia.fr
-- Objectif initial : vitrine + liste d'attente
-- Prix communiqué : inférieur à 50 €
-- Paiement : non activé
-- Hébergement prévu : Vercel
-- Gestion du domaine : GoDaddy
+Cette version est configurée pour un hébergement gratuit avec GitHub Pages.
 
-## Inclus
+## Déploiement automatique
 
-- Accueil premium responsive
-- Présentation détaillée du premier produit
-- Prototype intégré avec avertissement
-- Bénéfices et caractéristiques
-- FAQ
-- Contact
-- Liste d'attente simple par e-mail
-- Mentions légales
-- Politique de confidentialité
-- Configuration Vercel
-- Guide de déploiement
+À chaque commit sur la branche `main`, le workflow
+`.github/workflows/deploy-pages.yml` construit et publie le site.
 
-## Lancer le site
+## Configuration locale
 
 ```bash
 npm install
-npm run dev
+npm run build
 ```
 
-Puis ouvrir http://localhost:3000
+Le site statique est généré dans le dossier `out`.
 
-Voir `DEPLOIEMENT.md` pour la mise en ligne.
+Consultez `DEPLOIEMENT.md` pour les étapes GitHub Pages et la connexion
+du domaine `maisonnovia.fr`.
