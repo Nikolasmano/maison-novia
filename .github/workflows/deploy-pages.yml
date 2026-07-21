@@ -28,15 +28,10 @@ jobs:
           node-version: "20"
           package-manager-cache: false
 
-      - name: Configurer GitHub Pages
-        uses: actions/configure-pages@v6
-        with:
-          static_site_generator: next
-
       - name: Installer les dépendances
         run: npm install
 
-      - name: Construire le site
+      - name: Construire le site pour maisonnovia.fr
         run: npm run build
 
       - name: Envoyer le site construit
