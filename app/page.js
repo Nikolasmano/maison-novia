@@ -59,24 +59,18 @@ export default function Home() {
             </div>
 
             <div className="hero-visual" aria-label="Univers Maison Novia">
-              <div className="hero-shelf">
-                <div className="linen-stack top">
-                  <span></span><span></span><span></span>
-                </div>
-                <div className="shelf-product">
-                  <div className="mini-monogram">M</div>
-                </div>
-                <div className="linen-stack bottom">
-                  <span></span><span></span><span></span>
-                </div>
-              </div>
-              <div className="hero-bed">
-                <div className="lamp"></div>
-                <div className="pillows">
-                  <span></span><span></span>
-                </div>
-                <div className="duvet"></div>
-              </div>
+              <img
+                src="./hero-maison-novia.jpg"
+                alt="Chambre et dressing premium Maison Novia"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  objectPosition: "center",
+                  gridColumn: "1 / -1",
+                  gridRow: "1",
+                }}
+              />
             </div>
           </div>
         </section>
