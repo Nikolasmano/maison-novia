@@ -64,9 +64,11 @@ export default function Home() {
                 alt="Chambre et dressing premium Maison Novia"
                 style={{
                   width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
+                  height: "auto",
+                  maxHeight: "620px",
+                  objectFit: "contain",
                   objectPosition: "center",
+                  alignSelf: "center",
                   gridColumn: "1 / -1",
                   gridRow: "1",
                 }}
